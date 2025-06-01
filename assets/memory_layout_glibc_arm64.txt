@@ -1,0 +1,51 @@
+Text Segment:
+-------------
+main (function) at                                     : 0xAAAADC9E0B94
+func (function) at                                     : 0xAAAADC9E1104
+func2 (function) at                                    : 0xAAAADC9E11A0
+
+Initialized Data:
+-----------------
+string (initialized global char *) at                  : 0xAAAADCA000A0
+num (initialized global int) at                        : 0xAAAADCA00098
+
+Uninitialized Data (BSS):
+-------------------------
+extern **environ at                                    : 0xFFFF80137718
+string2 (uninitialized global char *) at               : 0xAAAADCA09CF0
+num2 (uninitialized global int) at                     : 0xAAAADCA09CF8
+array[] (uninitialized, fixed-size char * on BSS) from : 0xAAAADCA000B0
+array[] ends at                                        : 0xAAAADCA09CF0
+
+Heap:
+-----
+malloced area begins at                                : 0xAAAB00BEB6B0
+malloced area ends at                                  : 0xAAAB00C03D50
+
+Shared memory:
+--------------
+shared memory attachment begins at                     : 0xFFFF7FF77000
+shared memory attachment ends at                       : 0xFFFF7FF8F6A0
+
+High address (args and env):
+----------------------------
+argv at                                                : 0xFFFFCDB00900
+argc at                                                : 0xFFFFCDB0090C
+last arg at                                            : 0xFFFFCDB0A6E0
+environ[0] at                                          : 0xFFFFCDB0A6E8
+envp at                                                : 0xFFFFCDB008F8
+envp[0] at                                             : 0xFFFFCDB0A6E8
+
+After setenv(3):
+environ[0] at                                          : 0xAAAB00BEB6B0
+envp[0] at                                             : 0xFFFFCDB0A6E8
+
+Stack:
+------
+func_array[] (like 'array[]', but on stack) begins at  : 0xFFFFCDB00910
+func_array[] ends at                                   : 0xFFFFCDB0A550
+First variable inside main at                          : 0xFFFFCDB0A554
+static int n within func at                            : 0xAAAADCA0009C
+func (called 1 times): frame at                        : 0xFFFFCDB008C4
+func2 (from func): frame at                            : 0xFFFFCDB0089C
+func2 (from main): frame at                            : 0xFFFFCDB008CC

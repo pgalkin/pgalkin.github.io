@@ -2,12 +2,16 @@
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
+p, blockquote, pre,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
 }
 
+hr {
+  color: #f7f2f2;
+  margin: 2px;
+}
 
 
 /**
@@ -129,11 +133,9 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
+  color: #6b6a6a;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit * 0.5;
-  @include relative-font-size(1.125);
-  letter-spacing: -1px;
   font-style: italic;
 
   > :last-child {
@@ -151,7 +153,7 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  background-color: $code-background;
 }
 
 code {
@@ -251,4 +253,12 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+@font-face {
+  font-family: 'WebPlus_IBM_VGA_9x8';
+  src: url('/assets/fonts/WebPlus_IBM_VGA_9x16.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
