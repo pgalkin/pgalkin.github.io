@@ -21,6 +21,6 @@ the underlying mechanism is the same even if I used powershell or cmd.
 There are several ways to toggle the setting. Consult your local AI on how to
 do it. I chose to explicity allow my user to create symlinks via this thing:
 
-![allow-symlink-creation](/assets/symlinks_edit.png){ :style="display: block; margin: 0 auto" }
+![allow-symlink-creation](/assets/symlinks_edit.png){: style="display: block; margin: 0 auto" }
 
 [win-symlinks]: https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/create-symbolic-links
