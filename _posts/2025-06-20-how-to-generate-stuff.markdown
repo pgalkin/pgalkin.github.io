@@ -19,7 +19,11 @@ There are many versions UUID, here's two methods I prefer:
 ~> dbus-uuidgen
 a5cf5ce38ed6ba670029c082685d347d
 ```
-These require installing packages uuidgen and dbus respectively.
+These require installing packages uuidgen and dbus respectively. On Windows
+it is possible to do with Python:
+```
+python -c "import uuid; print(uuid.uuid4())"
+```
 
 #### A timestamp
 
