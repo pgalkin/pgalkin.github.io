@@ -1,7 +1,7 @@
 ---
 title: A Few Windows Registry Adjustments
 layout: post
-date: 2025-08-13T09:58:30Z
+date: 2025-08-12T09:58:30Z
 tags: [windows]
 uuid: 4b999347-b71e-43de-a9fe-283261b1ea59
 ---
