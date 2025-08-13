@@ -6,8 +6,6 @@ tags: [windows]
 uuid: 4b999347-b71e-43de-a9fe-283261b1ea59
 ---
 
-#### A Few Windows Registry Adjustments
-
 Create a file `modify_registry.reg`:
 ``` 
 Windows Registry Editor Version 5.00
